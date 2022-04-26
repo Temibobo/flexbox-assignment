@@ -33,7 +33,7 @@ body{
     margin: 1px;
     text-align: left;
     border-radius: 6px;
-    font-size: 15px;
+    
 }
 
 .parent .button{
@@ -42,20 +42,21 @@ body{
     padding-left: 13px;
     font-size: 12px;
     background-color: hsla(0, 0%, 100%, 0.75);
-    font-family:cursive ;
+    font-family:'Lexend Deca' ;
     border-radius: 20px;
-    margin: 30px;
 
 }
 
 .parent .text{
     color: hsla(0, 0%, 100%, 0.75);
-    font-family: cursive ;
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 12px;
 
 
 }
 
 .parent .head{
     color: hsl(0, 0%, 95%);
-    font-family: 'Courier New', cursive;
+    font-family: 'Big Shoulders Display';
+    font-size: 30px;
 }
