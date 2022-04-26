@@ -27,15 +27,35 @@ body{
 }
 .rec{
     width: 250px;
-    height: 400px;
+    height: auto;
     background-color: orange;
-    padding: 30px;
+    padding: 40px;
     margin: 1px;
     text-align: left;
     border-radius: 6px;
     font-size: 15px;
 }
 
-.button{
-    size-adjust: 30px;
+.parent .button{
+    padding: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    font-size: 12px;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    font-family:cursive ;
+    border-radius: 20px;
+    margin: 30px;
+
+}
+
+.parent .text{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: cursive ;
+
+
+}
+
+.parent .head{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Courier New', cursive;
 }
