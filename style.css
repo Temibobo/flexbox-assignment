@@ -43,7 +43,7 @@ body{
     background-color: hsl(184, 100%, 22%);
     padding: 40px;
     text-align: left;
-    border-radius: 6px;
+    border-radius:6px ;
     
 }
 
@@ -117,10 +117,26 @@ body{
 
 .button2:hover{
     background-color: hsl(0, 0%, 95%);
-    color:hsl(184, 100%, 22%);;
+    color:hsl(184, 100%, 22%);
+    
 }
 
 .button3:hover{
     background-color: hsl(0, 0%, 95%);
     color:hsl(179, 100%, 13%);
+}
+
+
+@media only screen and (max-width: 768px)
+{.parent {
+    background-color: rgb(153, 250, 218);
+    
+}
+}
+
+@media only screen and (max-width: 768px)
+{body {
+    background-color: rgb(153, 250, 218);
+    
+}
 }
