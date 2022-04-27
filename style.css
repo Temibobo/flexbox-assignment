@@ -6,16 +6,17 @@
 body{
     width: 100%;
     height: auto;
-    background-color: aqua;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: auto;
     
     
 }
 .parent{
     width: 100%;
-    height: 600px;
+    height: 630px;
     padding: 20px;
     background-color: white;
     display: flex;
@@ -23,27 +24,74 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
     
 }
-.rec{
-    width: 250px;
+.rec1{
+    width: 230px;
     height: auto;
-    background-color: orange;
+    background-color: hsl(31, 77%, 52%);
     padding: 40px;
-    margin: 1px;
     text-align: left;
     border-radius: 6px;
     
 }
 
-.parent .button{
+.rec2{
+    width: 230px;
+    height: auto;
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+    text-align: left;
+    border-radius: 6px;
+    
+}
+
+.rec3{
+    width: 230px;
+    height: auto;
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    text-align: left;
+    border-radius: 6px;
+    
+}
+
+.parent .button1{
     padding: 8px;
     padding-right: 13px;
     padding-left: 13px;
     font-size: 12px;
-    background-color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
     font-family:'Lexend Deca' ;
     border-radius: 20px;
+    border-color: white;
+    color: hsl(0, 0%, 95%);
+    
+
+}
+
+.parent .button2{
+    padding: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    font-size: 12px;
+    background-color: hsl(184, 100%, 22%);
+    font-family:'Lexend Deca' ;
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
+
+}
+
+.parent .button3{
+    padding: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    font-size: 12px;
+    background-color: hsl(179, 100%, 13%);
+    font-family:'Lexend Deca' ;
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
 
 }
 
@@ -51,6 +99,7 @@ body{
     color: hsla(0, 0%, 100%, 0.75);
     font-family:'Lexend Deca', sans-serif;
     font-size: 12px;
+    font-stretch: expanded;
 
 
 }
@@ -59,4 +108,19 @@ body{
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display';
     font-size: 30px;
+}
+
+.button1:hover{
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+}
+
+.button2:hover{
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);;
+}
+
+.button3:hover{
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
 }
